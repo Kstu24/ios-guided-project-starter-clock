@@ -14,5 +14,8 @@ class ClockViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        clockView.timezone = TimeZone(abbreviation: "EDT") // PDT: pacific time, MDT: mountain time
     }
+    
+    
 }
